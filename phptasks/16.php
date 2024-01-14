@@ -13,10 +13,10 @@ class Kalkulator {
     public function odejmij($liczba) {
         $this->wynik -= $liczba;
     }
-    public function dodaj($liczba) {
+    public function pomnoż($liczba) {
         $this->wynik *= $liczba;
     }
-    public function odejmij($liczba) {
+    public function podziel($liczba) {
         $this->wynik = $wynik / $liczba;
     }
 
